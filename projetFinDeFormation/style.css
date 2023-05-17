@@ -1,0 +1,325 @@
+header {
+    background-color: orange;
+    font-family: 'Climate Crisis', cursive;
+    color: brown;
+    text-align: center;
+}
+.titre{
+    font-size: xxx-large;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.menu li {
+    margin-right: 85px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu li a{
+    /* display: block;
+    padding: 10px; */
+    text-decoration: none;
+    color: brown;
+
+    /* font-weight: 0; */
+}
+
+
+  
+  .menu li a:visited { 
+    color:brown
+  }
+
+  .powerimg{
+    max-width: 100%; 
+    height: auto;
+  }
+
+  .powerimgII{
+    width: 100%; 
+    height: auto;
+    
+  }
+
+  /* .carousel{
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: carousel 10s infinite;
+  }
+
+
+
+  
+@keyframes carousel {
+  0% {
+    background-image: url('/img/Power\ bandw.jpg');
+  }
+  50% {
+    background-image: url('/img/55722-Power-Chainsaw-ManPower-Chainsaw-Man-HD-Wallpaper.jpg');
+  }
+} */
+
+
+
+.image-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  animation: scroll 12s infinite;
+  overflow: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+/* main{
+  width: 80%;
+  padding-left: 10%;
+} */
+
+.ep{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  position: relative;
+}
+.titre-ep{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(0, 0, 0);
+  margin-top: -20px;
+  text-align: center;
+}
+.chap{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(0, 0, 0);
+  margin-top: -25px;
+  text-align: right;
+}
+
+.image-ep{
+  max-width: 50%;
+  position: relative;
+  margin-top: -90px;
+}
+
+footer{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: brown;
+  text-align: left;
+}
+
+.titrefooter{
+  font-size: xxx-large;
+}
+
+.menufooter {
+  /* display: flex; */
+  justify-content: center;
+  list-style: none;
+
+}
+.menufooter li {
+  margin-right: 85px;
+}
+
+.menufooter li:last-child{
+  margin-right: 0;
+}
+
+.menufooter li a{
+  /* display: block;
+  padding: 10px; */
+  text-decoration: none;
+  color: brown;
+
+  /* font-weight: 0; */
+}
+
+
+
+.menufooter li a:visited { 
+  color:brown
+}
+
+.ponchita{
+  max-width: 31%;
+  padding-left: 70%;
+  filter: white(100%);
+  margin-top: -20%;
+}
+
+.apropos{
+  background-color: white;
+  text-align: left;
+  font-size: xxx-large;
+  /* margin-top: 200px; */
+  /* position: absolute; */
+  color: black;
+  max-height: fit-content;
+
+}
+
+/* .aproposimg{
+  margin: 0;
+  width: 100%;
+  
+} */
+
+main{
+  background-color: white;
+  size-adjust: 100%;
+  font-family: 'Climate Crisis', cursive;
+  
+
+}
+
+.parallaxe{
+  background-image: url('/img/Screen-Shot-2022-11-15-at-1.11.12-PM-e1668540813864-1024x682.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  /* z-index: -100; */
+  position: absolute;
+}
+
+.lorem{
+  text-align: center;
+  position: sticky;
+  margin-top: 800px;
+  font-family: 'Climate Crisis', cursive;
+
+}
+.contacter{
+  background-color: white;
+  text-align: center;
+  font-size: xxx-large;
+  /* margin-top: 200px; */
+  /* position: absolute; */
+  color: black;
+  max-height: fit-content;
+}
+.parallaxebis{
+  background-image: url('/img/Aki-Chainsawman.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  /* z-index: -100; */
+  position: absolute;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 800px;
+  width: 300px;
+  font-family: 'Climate Crisis', cursive;
+  text-align: left;
+  align-items: start;
+  margin-left: 630px;
+}
+
+/* form input{
+  background-color: orange;
+
+} */
+
+input[type="email"],
+textarea {
+  width: 100%;
+  background-color: orange;
+  border: none;
+
+}
+
+input[type="message"],
+textarea {
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+  border: none;
+
+}
+
+input[type="submit"]{
+  font-size: xx-large;
+  color: brown;
+  background-color: white;
+  border: none;
+  font-family: 'Climate Crisis', cursive;
+
+}
+
+.ep1{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  position: relative;
+}
+.titre-ep1{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(0, 0, 0);
+  margin-top: -20px;
+  width: 600px;
+}
+.chap1{
+  background-color: orange;
+  font-family: 'Climate Crisis', cursive;
+  color: rgb(0, 0, 0);
+  margin-top: -25px;
+  text-align: right;
+}
+
+.image-ep1{
+  max-width: 50%;
+  position: relative;
+  margin-top: -90px;
+}
+
+.EP1{
+  background-color: orange;
+}
+
+.image-ep1{
+  max-width: 40%;
+  position: absolute;
+  margin-top: -40px;
+}
